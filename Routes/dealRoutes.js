@@ -4,7 +4,7 @@ import {
   createDeal,
   updateDeal,
   deleteDeal,
-} from "../controllers/dealController.js";
+} from "../Controllers/dealController.js"
 import { protectRoute } from "../middleware/authMiddleware.js";
 
 const router = express.Router();
